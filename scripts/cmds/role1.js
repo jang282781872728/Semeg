@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: "role1",
-    aliases: ["role1", "role1", "role1"],
+    aliases: ["role1", "re1", "req"],
     version: "1.3",
     author: "BaYjid",
     role: 0,
