@@ -1,4 +1,4 @@
-.cmd install stats.js const os = require('os');
+const os = require('os');
 const { bold, thin } = require("fontstyles");
 
 module.exports = {
