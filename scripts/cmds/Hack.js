@@ -4,7 +4,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "hack",
+    name: "card",
     author: "jun",
     countDown: 5,
     role: 2,
@@ -50,7 +50,7 @@ module.exports = {
     var name = await api.getUserInfo(id);
     name = name[id].name;
     var ThreadInfo = await api.getThreadInfo(event.threadID);
-    var background = ["https://i.postimg.cc/VN7xgZS1/received-1195034371965850.png"];
+    var background = ["https://i.ibb.co.com/jk5FmT3Z/Picsart-25-03-27-23-25-39-642.jpg"];
     var rd = background[Math.floor(Math.random() * background.length)];
     let getAvtmot = (
       await axios.get(
@@ -82,7 +82,7 @@ module.exports = {
     fs.removeSync(pathAvt1);
     return api.sendMessage(
       {
-        body: "✅ 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙃𝙖𝙘𝙠𝙚𝙙 𝙏𝙝𝙞𝙨 𝙐𝙨𝙚𝙧! My Lord, Please Check Your Inbox.",
+        body: "HARE YOUR CARD.",
         attachment: fs.createReadStream(pathImg),
       },
       event.threadID,
